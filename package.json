@@ -1,5 +1,5 @@
 {
-  "name": "@architect/architect",
+  "name": "@untangler/architect",
   "homepage": "https://arc.codes",
   "version": "11.1.0",
   "description": "Create, deploy, and maintain next-generation AWS cloud function-based serverless infrastructure with full local, offline workflows, and more.",
