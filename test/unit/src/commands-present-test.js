@@ -3,8 +3,8 @@ let test = require('tape')
 let create = require('@architect/create')
 let createCLI = require('@architect/create/src/cli')
 
-let deploy = require('@architect/deploy')
-let deployCLI = require('@architect/deploy/src/cli')
+let deploy = require('@untangler/deploy')
+let deployCLI = require('@untangler/deploy/src/cli')
 
 let env = require('@architect/env')
 

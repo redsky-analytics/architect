@@ -6,6 +6,6 @@
 image: gitpod/workspace-full
 
 tasks:
-  - init: npm install
+  - init: yarn
 
 
