@@ -8,8 +8,8 @@ let deployCLI = require('@untangler/deploy/src/cli')
 
 let env = require('@architect/env')
 
-let hydrate = require('@architect/hydrate')
-let hydrateCLI = require('@architect/hydrate/src/cli')
+let hydrate = require('@untangler/hydrate')
+let hydrateCLI = require('@untangler/hydrate/src/cli')
 
 let logs = require('@architect/logs')
 let logsCLI = require('@architect/logs/src/cli')

@@ -5,7 +5,7 @@ let create = require('@architect/create/src/cli')
 let deploy = require('@untangler/deploy/src/cli')
 let destroy = require('@architect/destroy/src/cli')
 let env = require('@architect/env/src/cli')
-let hydrate = require('@architect/hydrate/src/cli')
+let hydrate = require('@untangler/hydrate/src/cli')
 let logs = require('@architect/logs/src/cli')
 let sandbox = require('@architect/sandbox/src/cli/arc')
 

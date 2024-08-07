@@ -1565,7 +1565,7 @@ We just released new Architect syntax definitions for three popular text editors
 ### Added
 
 - New `--no-hydrate` flag to `arc deploy` in case you want arc to skip installing / managing dependencies within functions before a deploy.
-- Added `installRoot` param to `@architect/hydrate` API for explicitly enabling root dependencies to be installed
+- Added `installRoot` param to `@untangler/hydrate` API for explicitly enabling root dependencies to be installed
 - Added `npx` bin for standalone CLI usage of Hydrate (`npx arc-hydrate`)
 
 

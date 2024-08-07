@@ -19,7 +19,7 @@ let arc = proxyquire('../../../src', {
   '@untangler/deploy/src/cli': returner.bind({}, 'deploy'),
   '@architect/destroy/src/cli': returner.bind({}, 'destroy'),
   '@architect/env/src/cli': returner.bind({}, 'env'),
-  '@architect/hydrate/src/cli': returner.bind({}, 'hydrate'),
+  '@untangler/hydrate/src/cli': returner.bind({}, 'hydrate'),
   '@architect/logs/src/cli': returner.bind({}, 'logs'),
   '@architect/sandbox/src/cli/arc': returner.bind({}, 'sandbox'),
   './startup': startup,
